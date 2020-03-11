@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint",
+    "prettier/react"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/order": ["error", {
+      "alphabetize": {
+        "caseInsensitive": true,
+        "order": "asc"
+      },
+      "groups": ["external", "internal"],
+      "newlines-between": "always"
+      }
+    ],
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+    "react/jsx-max-props-per-line": ["error", { "maximum": 3 }],
+    "react/jsx-sort-props": ["error", { "ignoreCase": true }]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}
