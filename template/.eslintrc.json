@@ -2,13 +2,10 @@
   "extends": [
     "airbnb-typescript",
     "airbnb/hooks",
-    "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:prettier/recommended",
-    "prettier/@typescript-eslint",
-    "prettier/react"
+    "prettier/react",
+    "prettier/@typescript-eslint"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -19,19 +16,42 @@
     "project": "tsconfig.json",
     "sourceType": "module"
   },
+  "plugins": [
+    "eslint-plugin-import-helpers"
+  ],
   "rules": {
-    "import/order": ["error", {
+    "comma-dangle": "off",
+    "global-require": "off",
+    "import-helpers/order-imports": ["error", {
       "alphabetize": {
-        "caseInsensitive": true,
+        "ignoreCase": true,
         "order": "asc"
       },
-      "groups": ["external", "internal"],
-      "newlines-between": "always"
-      }
-    ],
-    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
-    "react/jsx-max-props-per-line": ["error", { "maximum": 3 }],
-    "react/jsx-sort-props": ["error", { "ignoreCase": true }]
+      "groups": [
+        "/^react/",
+        "module",
+        ["parent", "sibling", "index"]
+      ],
+      "newlinesBetween": "always"
+    }],
+    "no-multiple-empty-lines": ["error", {
+      "max": 1
+    }],
+    "react/jsx-max-props-per-line": ["error", {
+      "maximum": 3
+    }],
+    "react/jsx-props-no-spreading": ["error", {
+      "custom": "ignore"
+    }],
+    "react/jsx-sort-props": ["error", {
+      "ignoreCase": true
+    }],
+    "react/prop-types": "off",
+    "react/state-in-constructor": ["error", "never"],
+    "sort-imports": ["error", {
+      "ignoreCase": true,
+      "ignoreDeclarationSort": true
+    }]
   },
   "settings": {
     "react": {
