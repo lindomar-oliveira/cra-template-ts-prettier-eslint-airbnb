@@ -20,7 +20,7 @@ The CRA Custom Template does not yet have support for `devDependencies`, so I re
 
 ```json
 {
-    ... // no changes for before lines
+    // no changes for before lines
     "scripts": {
         "build": "react-scripts build",
         "eject": "react-scripts eject",
@@ -56,7 +56,7 @@ The CRA Custom Template does not yet have support for `devDependencies`, so I re
         "react-scripts": "3.4.1",
         "typescript": "^3.9.5"
     }
-    ... // no changes for after lines
+    // no changes for after lines
 }
 ````
 
