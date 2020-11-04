@@ -20,6 +20,10 @@
     "eslint-plugin-import-helpers"
   ],
   "rules": {
+    "@typescript-eslint/no-empty-interface": ["error", {
+        "allowSingleExtends": true
+      }
+    ],
     "comma-dangle": "off",
     "global-require": "off",
     "import-helpers/order-imports": ["error", {
@@ -36,6 +40,9 @@
     }],
     "no-multiple-empty-lines": ["error", {
       "max": 1
+    }],
+    "react/destructuring-assignment": ["warn", "always", {
+      "ignoreClassFields": true
     }],
     "react/jsx-max-props-per-line": ["error", {
       "maximum": 3
