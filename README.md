@@ -1,6 +1,6 @@
 # cra-template-ts-prettier-eslint-airbnb
 
-Template for [Create React App](https://create-react-app.dev) supporting [TypeScript](https://www.typescriptlang.org) and SASS/SCSS files. Included with [Prettier](https://prettier.io) and [ESlint](https://eslint.org/) config recommended by [Airbnb](https://github.com/airbnb/javascript).
+Template for [Create React App](https://create-react-app.dev) supporting [TypeScript](https://www.typescriptlang.org) and SASS/SCSS files. Included with [Prettier](https://prettier.io) and [ESlint](https://eslint.org) config recommended by [Airbnb](https://github.com/airbnb/javascript).
 
 ## Prerequisites
 
@@ -29,31 +29,31 @@ The CRA Custom Template does not yet have support for `devDependencies`, so I re
         "test": "react-scripts test"
     },
     "dependencies": {
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1"
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
     },
     "devDependencies": {
-        "@testing-library/jest-dom": "^5.10.0",
-        "@testing-library/react": "^10.2.1",
-        "@testing-library/user-event": "^11.4.2",
-        "@types/jest": "^26.0.0",
-        "@types/react": "^16.9.36",
-        "@types/react-dom": "^16.9.8",
-        "@typescript-eslint/eslint-plugin": "^3.2.0",
-        "@typescript-eslint/parser": "^3.2.0",
-        "eslint": "^6.8.0",
-        "eslint-config-airbnb-typescript": "^8.0.2",
-        "eslint-config-prettier": "^6.11.0",
-        "eslint-plugin-import": "^2.21.2",
-        "eslint-plugin-import-helpers": "^1.0.2",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-prettier": "^3.1.3",
-        "eslint-plugin-react": "^7.20.0",
-        "eslint-plugin-react-hooks": "^4.0.4",
+        "@testing-library/jest-dom": "^5.11.5",
+        "@testing-library/react": "^11.1.1",
+        "@testing-library/user-event": "^12.2.0",
+        "@types/jest": "^26.0.15",
+        "@types/react": "^16.9.55",
+        "@types/react-dom": "^16.9.9",
+        "@typescript-eslint/eslint-plugin": "^4.6.1",
+        "@typescript-eslint/parser": "^4.6.1",
+        "eslint": "^7.11.0",
+        "eslint-config-airbnb-typescript": "^12.0.0",
+        "eslint-config-prettier": "^6.15.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-import-helpers": "^1.1.0",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^3.1.4",
+        "eslint-plugin-react": "^7.21.5",
+        "eslint-plugin-react-hooks": "^4.2.0",
         "node-sass": "^4.14.1",
-        "prettier": "^2.0.5",
-        "react-scripts": "3.4.1",
-        "typescript": "^3.9.5"
+        "prettier": "^2.1.2",
+        "react-scripts": "4.0.0",
+        "typescript": "^4.0.5"
     }
 }
 ````
