@@ -24,6 +24,7 @@
         "allowSingleExtends": true
       }
     ],
+    "@typescript-eslint/no-explicit-any": "off",
     "comma-dangle": "off",
     "global-require": "off",
     "import-helpers/order-imports": ["error", {
@@ -53,7 +54,9 @@
     "react/jsx-sort-props": ["error", {
       "ignoreCase": true
     }],
+    "react/jsx-uses-react": "off",
     "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
     "react/state-in-constructor": ["error", "never"],
     "sort-imports": ["error", {
       "ignoreCase": true,
