@@ -1,6 +1,6 @@
 {
   "name": "cra-template-ts-prettier-eslint-airbnb",
-  "version": "1.3.0",
+  "version": "1.3.9",
   "main": "template.json",
   "description": "Template for Create React App supporting TypeScript and SASS/SCSS files. Included with Prettier and ESlint config recommended by Airbnb.",
   "keywords": [
