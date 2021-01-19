@@ -1,3 +1,4 @@
+import { StrictMode } from 'react';
 import { render } from 'react-dom';
 
 import './index.scss';
@@ -5,9 +6,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 render(
-  <React.StrictMode>
+  <StrictMode>
     <App />
-  </React.StrictMode>,
+  </StrictMode>,
   document.getElementById('root')
 );
 
