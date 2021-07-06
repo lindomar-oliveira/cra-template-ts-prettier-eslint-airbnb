@@ -8,5 +8,6 @@
     "editor.codeActionsOnSave": {
       "source.fixAll": true
     }
-  }
+  },
+  "typescript.preferences.quoteStyle": "single"
 }

@@ -1,7 +1,7 @@
+import './App.css';
 import logo from './logo.svg';
-import './App.scss';
 
-const App: React.FC = () => (
+const App = (): JSX.Element => (
   <div className="App">
     <header className="App-header">
       <img alt="logo" className="App-logo" src={logo} />
